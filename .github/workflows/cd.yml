@@ -23,6 +23,6 @@ jobs:
             cd /root/app/test-ci-cd
             git pull origin main
             git status
-            npm run install
+            npm install
             npm run build
             npm run deploy:prod
